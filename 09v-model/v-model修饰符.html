@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <!-- lazy只会在失去焦点或者回车的时候才会更新message -->
+    <input type="text" v-model.lazy="message">
+
+    <input type="number" v-model.number="age">
+
+    <input type="text" v-model.trim="name">
+
+
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            message: 'Hello World !',
+            age: 0,
+            name: ''
+        }
+    })
+</script>
+
+</body>
+</html>

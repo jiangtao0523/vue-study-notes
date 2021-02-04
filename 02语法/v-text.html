@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <!-- 展示文本 一般用的少 不够灵活 -->
+    {{ message }}
+    <h2 v-text="message"></h2>
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+    new Vue({
+        el: "#app",
+        data: {
+            message: 'Hello World !'
+        }
+    })
+</script>
+
+</body>
+</html>

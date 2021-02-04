@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <!-- 使用v-show 等于false 只是在行内样式加了display=none 当显示和隐藏的频率较高的时候使用v-show -->
+    <h2 v-show="isShow">{{ message }}</h2>
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+    new Vue({
+        el: "#app",
+        data: {
+            message: 'Hello World !',
+            isShow: true
+        }
+    })
+</script>
+</body>
+</html>

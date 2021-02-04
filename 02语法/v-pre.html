@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <!-- 原封不动的解析 用的也少 -->
+    {{ message }}
+    <h2 v-pre> {{ message }}</h2>
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+    new Vue({
+        el: "#app",
+        data: {
+            message: 'Hello World !'
+        }
+    })
+</script>
+
+</body>
+</html>

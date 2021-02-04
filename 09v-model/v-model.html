@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <form action="">
+        <!-- 双向绑定,当input值改变 对应的值也改变 -->
+        <input type="text" v-model="message">
+    </form>
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+    new Vue({
+        el: "#app",
+        data: {
+            message: 'Hello World !'
+        }
+    })
+</script>
+</body>
+</html>

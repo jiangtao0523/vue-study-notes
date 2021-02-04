@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <!-- 在这里不能直接使用{{ }} 这个方式只能是content绑定 -->
+    <img v-bind:src="imaUrl">
+    <!-- 语法糖 使用: 代替 v-bind: -->
+    <img :src="imaUrl">
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+    new Vue({
+        el: "#app",
+        data: {
+            message: 'Hello World !',
+            imaUrl: 'https://www.baidu.com/s?wd=%E4%BB%8A%E6%97%A5%E6%96%B0%E9%B2%9C%E4%BA%8B&tn=SE_Pclogo_6ysd4c7a&sa=ire_dl_gh_logo&rsv_dl=igh_logo_pc'
+        }
+    })
+</script>
+</body>
+</html>

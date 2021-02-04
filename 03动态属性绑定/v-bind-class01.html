@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        .active {
+            color: red;
+        }
+
+        .line {
+            color: pink;
+        }
+    </style>
+</head>
+<body>
+
+<div id="app">
+    <!-- 动态绑定class的对象语法 {类名: bool, 类名: bool} -->
+    <h2 :class="{active: isActive, line: isLine}">{{ message }}</h2>
+<!--    <h2 :class="getClasses()">{{ message }}</h2>-->
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+    new Vue({
+        el: "#app",
+        data: {
+            message: 'Hello World !',
+            isActive: true,
+            isLine: false
+        },
+        method: {
+            getClasses: function() {
+                return {active: this.isActive, line: this.isLine}
+            }
+        }
+    })
+</script>
+
+</body>
+</html>

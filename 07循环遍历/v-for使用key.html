@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <ul>
+        <!-- key和content需要一一对应 在组建虚拟dom时便可以复用 -->
+        <li v-for="item in letters" :key="item">{{item}}</li>
+    </ul>
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+    new Vue({
+        el: "#app",
+        data: {
+            message: 'Hello World !',
+            letters: ['a','b','c']
+        }
+    })
+</script>
+</body>
+</html>

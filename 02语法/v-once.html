@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <!-- 只会绑定一次 下次这个值改变了 不会进行改变 v-once后面不用接表达式 -->
+    <h2 v-once>{{ message }}</h2>
+    {{ message }}
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+    new Vue({
+        el: "#app",
+        data: {
+            message: 'Hello World !'
+        }
+    })
+</script>
+
+</body>
+</html>

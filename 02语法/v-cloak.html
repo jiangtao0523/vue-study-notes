@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        [v-cloak] {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<!-- 避免Vue实例延迟加载的时候把 {{ message }} 这个字符直接展示 -->
+<div id="app" v-cloak>
+    {{ message }}
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+    new Vue({
+        el: "#app",
+        data: {
+            message: 'Hello World !'
+        }
+    })
+</script>
+
+</body>
+</html>

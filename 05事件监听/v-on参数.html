@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <!-- 不传参数 默认传递一个事件对象 -->
+    <button @click="btnClick"></button>
+    <!-- $event传递事件对象参数 -->
+    <button @click="btnClick2($event,'123')"></button>
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+    new Vue({
+        el: "#app",
+        data: {
+            message: 'Hello World !'
+        },
+        methods: {
+            btnClick(event) {
+                console.log(event)
+            },
+            btnClick2(event,param) {
+                console.log(event + param)
+            }
+        }
+    })
+</script>
+</body>
+</html>
