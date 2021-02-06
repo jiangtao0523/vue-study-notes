@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c18a29cd-0e06-44a5-be73-e977823750eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/13webpack/webpack配置/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13webpack/webpack配置/src/js/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13webpack/webpack配置/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1612279906483</updated>
       <workItem from="1612279909715" duration="43564000" />
-      <workItem from="1612598378388" duration="12782000" />
+      <workItem from="1612598378388" duration="21288000" />
     </task>
     <servers />
   </component>
