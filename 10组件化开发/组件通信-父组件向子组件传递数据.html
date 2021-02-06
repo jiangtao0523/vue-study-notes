@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <!-- 需要绑定父组件的data里面的属性 子组件如果使用了驼峰命名需要使用 '-' -->
+    <cpn :c-movies="movies" :c-message="message"></cpn>
+</div>
+
+<template id="cpn">
+    <!-- template只能有一个根节点 -->
+    <div>
+        <ul>
+            <li v-for="item in cMovies">{{item}}</li>
+        </ul>
+        <h2>{{cMessage}}</h2>
+    </div>
+</template>
+
+<script src="../js/vue.js"></script>
+<script>
+    const cpn = {
+        template: '#cpn',
+        // 可以是数组类型 对象 (常用的方式是使用对象)
+        // props: ['cmovies','cmessage']
+        props: {
+            cMovies: {
+                type: Array,
+                default: ['1','2','3'],
+                required: false
+            },
+            cMessage: String
+        }
+    }
+    new Vue({
+        el: '#app',
+        data: {
+            message: 'Hello World !',
+            movies: ['1','2']
+        },
+        components: {
+            cpn
+        }
+    })
+</script>
+</body>
+</html>

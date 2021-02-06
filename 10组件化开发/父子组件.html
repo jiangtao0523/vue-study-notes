@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <cpn2></cpn2>
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+    // 创建组件构造器
+    const cpnC = Vue.extend({
+        template: `<div>
+                    <h2>标题</h2>
+                    <p>内容</p>
+                  </div>`
+    })
+
+    const cpnC2 = Vue.extend({
+        template: `<div>
+                    <h2>标题2222</h2>
+                    <p>内容222222</p>
+                    <cpn1></cpn1>
+                  </div>`,
+        components: {
+            cpn1: cpnC
+        }
+    })
+
+    // 可以把Vue当成root组件
+    new Vue({
+        el: '#app',
+        data: {
+            message: 'Hello World !'
+        },
+        components: {
+            cpn2: cpnC2
+        }
+    })
+</script>
+</body>
+</html>

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c18a29cd-0e06-44a5-be73-e977823750eb" name="Default Changelist" comment="" />
+    <list default="true" id="c18a29cd-0e06-44a5-be73-e977823750eb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/13webpack/webpack配置/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13webpack/webpack配置/src/js/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13webpack/webpack配置/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +16,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="Less File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -30,18 +39,42 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/start01/js" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.15.3" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.25" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/13webpack/webpack配置vue" />
+    <property name="list.type.of.created.stylesheet" value="Less" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\webstormworkspace\vue-study-notes\13webpack\webpack配置vue" />
+      <recent name="D:\webstormworkspace\vue-study-notes\13webpack\webpack配置" />
       <recent name="D:\webstormworkspace\vue-study-notes\start01\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\webstormworkspace\vue-study-notes\13webpack\webpack配置\src\js" />
       <recent name="D:\webstormworkspace\vue-study-notes\03动态属性绑定" />
       <recent name="D:\webstormworkspace\vue-study-notes" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/13webpack/webpack配置vue/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -51,11 +84,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612279906483</updated>
-      <workItem from="1612279909715" duration="23199000" />
+      <workItem from="1612279909715" duration="43564000" />
+      <workItem from="1612598378388" duration="12782000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
