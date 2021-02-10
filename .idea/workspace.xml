@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c18a29cd-0e06-44a5-be73-e977823750eb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14vue/vuerouter/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/14vue/vuerouter/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14vue/vuerouter/src/components/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/14vue/vuerouter/src/components/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14vue/vuerouter/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/14vue/vuerouter/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,10 +16,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="Less File" />
         <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -38,17 +41,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.15.3" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.25" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/13webpack/webpack配置vue" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/14vue/tabbar/src" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\webstormworkspace\vue-study-notes\14vue\tabbar\src" />
+      <recent name="D:\webstormworkspace\vue-study-notes\14vue\tabbar\src\assets\img" />
+      <recent name="D:\webstormworkspace\vue-study-notes\14vue\tabbar\src\assets\css" />
       <recent name="D:\webstormworkspace\vue-study-notes\13webpack\webpack配置vue" />
       <recent name="D:\webstormworkspace\vue-study-notes\13webpack\webpack配置" />
-      <recent name="D:\webstormworkspace\vue-study-notes\start01\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\webstormworkspace\vue-study-notes\13webpack\webpack配置\src\js" />
@@ -82,7 +87,8 @@
       <option name="presentableId" value="Default" />
       <updated>1612279906483</updated>
       <workItem from="1612279909715" duration="43564000" />
-      <workItem from="1612598378388" duration="21288000" />
+      <workItem from="1612598378388" duration="22792000" />
+      <workItem from="1612791427598" duration="30157000" />
     </task>
     <servers />
   </component>
@@ -99,5 +105,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
